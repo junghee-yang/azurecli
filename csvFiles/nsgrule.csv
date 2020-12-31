@@ -1,0 +1,2 @@
+name,nsg-name,priority,resource-group,access,direction,source-address-prefixes,source-port-ranges,destination-address-prefixes,destination-port-ranges,destination-asgs,protocol,description,,,,,
+rule-tst-dev-koreacentral-001,nsg-tst-dev-koreacentral-001,100,dev-test,allow,inbound,*,*,*,22,,Tcp,,,,,,

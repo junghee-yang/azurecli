@@ -1,0 +1,5 @@
+name,resource-group,vnet-name,subnet,location,subnet-address-prefix,image,admin-username,admin-password
+vm-tst-dev-koreacentral-001,dev-test,vnet-tst-dev-koreacentral-001,snet-tst-dev-koreacentral-001,koreacentral,10.0.0.0/24,UbuntuLTS,adminquest,adminquest!234
+vm-tst-dev-koreacentral-002,dev-test,vnet-tst-dev-koreacentral-001,snet-tst-dev-koreacentral-001,koreacentral,10.0.0.0/24,UbuntuLTS,adminquest,adminquest!234
+vm-tst-prod-koreacentral-001,prod-test,vnet-tst-prod-koreacentral-001,snet-tst-prod-koreacentral-001,koreacentral,10.0.0.0/24,UbuntuLTS,adminquest,adminquest!234
+vm-tst-prod-koreacentral-002,prod-test,vnet-tst-prod-koreacentral-001,snet-tst-prod-koreacentral-001,koreacentral,10.0.0.0/24,UbuntuLTS,adminquest,adminquest!234

@@ -1,0 +1,3 @@
+name,resource-group,address-prefixes,vnet-name,defer,delegations,disable-private-endpoint-network-policies,disable-private-link-service-network-policies,nat-gateway,network-security-group,route-table,service-endpoint-policy,service-endpoints,subscription
+snet-tst-dev-koreacentral-001,dev-test,10.0.0.0/24,vnet-tst-dev-koreacentral-001,,,,,,nsg-tst-dev-koreacentral-001,,,,
+snet-tst-prod-koreacentral-001,prod-test,10.0.0.0/24,vnet-tst-prod-koreacentral-001,,,,,,nsg-tst-prod-koreacentral-001,,,,
