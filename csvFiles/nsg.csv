@@ -1,3 +1,5 @@
-name,resource-group,location,subscription,tags
-nsg-tst-dev-koreacentral-001,dev-test,koreacentral,,
-nsg-tst-prod-koreacentral-001,prod-test,koreacentral,,
+name,resource-group,location
+nsg-dev-prj1-koreacentral-001,dev-prj1-koreacentral,koreacentral
+nsg-dev-prj1-koreacentral-002,dev-prj1-koreacentral,koreacentral
+nsg-dev-prj1-koreacentral-003,dev-prj1-koreacentral,koreacentral
+nsg-dev-prj1-koreacentral-004,dev-prj1-koreacentral,koreacentral

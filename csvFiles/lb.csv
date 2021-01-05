@@ -1,0 +1,4 @@
+name,resource-group,vnet-name,sku,public-ip-address,frontend-ip-name,backend-pool-name
+lb-dev-prj1-koreacentral-001,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,Basic,pip-dev-prj1-koreacentral-001,frnt-lb-dev-prj1-koreacentral-001,back-lb-dev-prj1-koreacentral-001
+lb-dev-prj1-koreacentral-002,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,Basic,,frnt-lb-dev-prj1-koreacentral-002,back-lb-dev-prj1-koreacentral-002
+lb-dev-prj1-koreacentral-003,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,Basic,,frnt-lb-dev-prj1-koreacentral-003,back-lb-dev-prj1-koreacentral-003

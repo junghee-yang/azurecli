@@ -1,0 +1,10 @@
+name,resource-group,vnet-name,subnet,location,nics,availability-set,image,admin-username,admin-password
+vm-dev-prj1-koreacentral-001,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-002,koreacentral,nic-dev-prj1-koreacentral-001,,UbuntuLTS,questadmin,quest1234
+vm-dev-prj1-koreacentral-002,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-003,koreacentral,nic-dev-prj1-koreacentral-002,avail-dev-prj1-koreacentral-001,UbuntuLTS,questadmin,quest1235
+vm-dev-prj1-koreacentral-003,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-003,koreacentral,nic-dev-prj1-koreacentral-003,avail-dev-prj1-koreacentral-001,UbuntuLTS,questadmin,quest1236
+vm-dev-prj1-koreacentral-004,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-003,koreacentral,nic-dev-prj1-koreacentral-004,avail-dev-prj1-koreacentral-001,UbuntuLTS,questadmin,quest1237
+vm-dev-prj1-koreacentral-005,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-004,koreacentral,nic-dev-prj1-koreacentral-005,avail-dev-prj1-koreacentral-002,UbuntuLTS,questadmin,quest1238
+vm-dev-prj1-koreacentral-006,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-004,koreacentral,nic-dev-prj1-koreacentral-006,avail-dev-prj1-koreacentral-002,UbuntuLTS,questadmin,quest1239
+vm-dev-prj1-koreacentral-007,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-004,koreacentral,nic-dev-prj1-koreacentral-007,avail-dev-prj1-koreacentral-002,UbuntuLTS,questadmin,quest1240
+vm-dev-prj1-koreacentral-008,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-005,koreacentral,nic-dev-prj1-koreacentral-008,avail-dev-prj1-koreacentral-003,UbuntuLTS,questadmin,quest1241
+vm-dev-prj1-koreacentral-009,dev-prj1-koreacentral,vnet-dev-prj1-koreacentral,snet-dev-prj1-koreacentral-005,koreacentral,nic-dev-prj1-koreacentral-009,avail-dev-prj1-koreacentral-003,UbuntuLTS,questadmin,quest1242

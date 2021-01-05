@@ -1,3 +1,4 @@
-name,location,managed-by,subscription,tags
-dev-test,koreacentral,,,
-prod-test,koreacentral,,,d
+name,location
+dev-prj1-koreacentral,koreacentral
+prod-prj1-koreacentral,koreacentral
+test-prj1-koreacentral,koreacentral

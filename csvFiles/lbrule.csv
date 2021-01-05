@@ -1,0 +1,4 @@
+name,resource-group,lb-name,protocol,probe-name,frontend-port,backend-port,frontend-ip-name,backend-pool-name
+rule-lb-dev-prj1-koreacentral-001,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-001,Tcp,prb-dev-prj1-koreacentral-001,5000,5000,frnt-lb-dev-prj1-koreacentral-001,back-lb-dev-prj1-koreacentral-001
+rule-lb-dev-prj1-koreacentral-002,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-002,Tcp,prb-dev-prj1-koreacentral-002,5000,5000,frnt-lb-dev-prj1-koreacentral-002,back-lb-dev-prj1-koreacentral-002
+rule-lb-dev-prj1-koreacentral-003,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-003,Tcp,prb-dev-prj1-koreacentral-003,5000,5000,frnt-lb-dev-prj1-koreacentral-003,back-lb-dev-prj1-koreacentral-003

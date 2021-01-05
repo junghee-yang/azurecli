@@ -1,3 +1,4 @@
-name,resource-group,address-prefixes,ddos-protection,ddos-protection-plan,defer,dns-servers,location,network-security-group,subnet-name,subnet-prefixes,subscription,tags,vm-protection
-vnet-tst-dev-koreacentral-001,dev-test,,,,,,,nsg-tst-dev-koreacentral-001,,,,,
-vnet-tst-prod-koreacentral-001,prod-test,,,,,,,nsg-tst-prod-koreacentral-001,,,,,
+name,resource-group
+vnet-dev-prj1-koreacentral,dev-prj1-koreacentral
+vnet-prod-prj1-koreacentral,prod-prj1-koreacentral
+vnet-test-prj1-koreacentral,test-prj1-koreacentral

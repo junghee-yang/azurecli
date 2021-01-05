@@ -1,0 +1,5 @@
+name,resource-group,lb-name,public-ip-addres,subnet
+frnt-lbi-prj1-dev-koreacentral-001,dev-prj1,lbi-prj1-dev-koreacentral-001,,
+frnt-lbi-prj1-dev-koreacentral-002,dev-prj1,lbi-prj1-dev-koreacentral-002,,
+frnt-lbi-prj1-prod-koreacentral-001,prod-prj1,lbi-prj1-prod-koreacentral-001,,
+frnt-lbi-prj1-prod-koreacentral-002,prod-prj1,lbi-prj1-prod-koreacentral-002,,
