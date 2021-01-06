@@ -80,10 +80,9 @@ echo "------------- End [Create NIC IP-config] ----------------------"
 
 echo "------------------- Start [Create VM] -------------------------"
 #Create VM
-output=$($exec_shell "csvFiles/vm-3.csv" "az vm create")
+output=$($exec_shell "csvFiles/vm-3.csv" "az vm create --ssh-key-values '$(cat /Users/msprodo/.ssh/id_rsa.pub)'")
 echo $output
 echo "-------------------- End [Create VM] --------------------------"
-
 
 # Create NSG rule
 #output=$($exec_shell "csvFiles/nsgrule.csv" "az network nsg rule create")
