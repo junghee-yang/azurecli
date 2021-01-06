@@ -32,15 +32,13 @@ do
     for coIndex in "${!columns[@]}"
     do
         colValue=${columns[$colIndex]}
-        colValue=$(echo ${colValue//[$'\r']} | xargs)
+        colValue=${colValue//[$'\r']}
         if [ $lineNo -eq 0 ]; then
             options[$coIndex]=${colValue}
         elif [[ ! -z $colValue && -n $colValue && colIndex -gt 0 ]]; then
             optStr="$optStr --${options[$colIndex]} $colValue"
         elif [[ -n $colValue && $colIndex -eq 0 ]]; then
             optStr="$optStr --name $colValue"
-        else
-            echo "$$$$ nothing to do"
         fi
 
         ((colIndex++))
@@ -52,10 +50,16 @@ do
         eval $CMD "$optStr"
         status=$(check_status)
         if [ $status == "fail" ]; then
-            echo "\nFail to execute $CMD $optStr\n"
+            echo "-----------------------------------------------------"
+            echo "           Fail to execute"
+            echo " $CMD $opsStr"
+            echo "-----------------------------------------------------"
             exit 1
         else
-            echo "\nSucceed to execute $CMD $optStr\n"
+            echo "-----------------------------------------------------"
+            echo "          Succeed to execute"
+            echo "  $CMD $optStr"
+            echo "-----------------------------------------------------"
         fi
     fi
 
