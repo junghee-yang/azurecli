@@ -27,7 +27,7 @@ echo $($exec_shell "csvFiles/pip.csv" "az network public-ip delete" "name resour
 echo "-------------------- End [Delete Public IP] --------------------------"
 
 echo "--------------------- Start [Delete Subnet] --------------------------"
-echo $($exec_shell "csvFiles/subnet.csv" "az network vnet subnet delete" "name resource-group vnet-name"
+echo $($exec_shell "csvFiles/subnet.csv" "az network vnet subnet delete" "name resource-group vnet-name")
 echo "---------------------- End [Delete Subnet] ---------------------------"
 
 echo "----------------------- Start [Delete NSG] ---------------------------"
