@@ -1,5 +1,5 @@
 name,resource-group,location
-nsg-dev-prj1-koreacentral-001,dev-prj1-koreacentral,koreacentral
-nsg-dev-prj1-koreacentral-002,dev-prj1-koreacentral,koreacentral
-nsg-dev-prj1-koreacentral-003,dev-prj1-koreacentral,koreacentral
-nsg-dev-prj1-koreacentral-004,dev-prj1-koreacentral,koreacentral
+nsg-dev-prj2-koreacentral-001,dev-prj2-koreacentral,koreacentral
+nsg-dev-prj2-koreacentral-002,dev-prj2-koreacentral,koreacentral
+nsg-dev-prj2-koreacentral-003,dev-prj2-koreacentral,koreacentral
+nsg-dev-prj2-koreacentral-004,dev-prj2-koreacentral,koreacentral

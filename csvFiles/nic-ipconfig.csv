@@ -1,9 +1,7 @@
 name,resource-group,nic-name,lb-name,lb-address-pools
-cnf-nic-dev-prj1-koreacentral-001,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-002,lb-dev-prj1-koreacentral-001,back-lb-dev-prj1-koreacentral-001
-cnf-nic-dev-prj1-koreacentral-002,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-003,lb-dev-prj1-koreacentral-001,back-lb-dev-prj1-koreacentral-001
-cnf-nic-dev-prj1-koreacentral-003,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-004,lb-dev-prj1-koreacentral-001,back-lb-dev-prj1-koreacentral-001
-cnf-nic-dev-prj1-koreacentral-004,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-005,lb-dev-prj1-koreacentral-002,back-lb-dev-prj1-koreacentral-002
-cnf-nic-dev-prj1-koreacentral-005,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-006,lb-dev-prj1-koreacentral-002,back-lb-dev-prj1-koreacentral-002
-cnf-nic-dev-prj1-koreacentral-006,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-007,lb-dev-prj1-koreacentral-002,back-lb-dev-prj1-koreacentral-002
-cnf-nic-dev-prj1-koreacentral-007,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-008,lb-dev-prj1-koreacentral-003,back-lb-dev-prj1-koreacentral-003
-cnf-nic-dev-prj1-koreacentral-008,dev-prj1-koreacentral,nic-dev-prj1-koreacentral-009,lb-dev-prj1-koreacentral-003,back-lb-dev-prj1-koreacentral-003
+cnf-nic-dev-prj2-koreacentral-001,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-002,lb-dev-prj2-koreacentral-001,back-lb-dev-prj2-koreacentral-001
+cnf-nic-dev-prj2-koreacentral-002,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-003,lb-dev-prj2-koreacentral-001,back-lb-dev-prj2-koreacentral-001
+cnf-nic-dev-prj2-koreacentral-003,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-004,lb-dev-prj2-koreacentral-001,back-lb-dev-prj2-koreacentral-001
+cnf-nic-dev-prj2-koreacentral-004,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-005,lb-dev-prj2-koreacentral-002,back-lb-dev-prj2-koreacentral-002
+cnf-nic-dev-prj2-koreacentral-005,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-006,lb-dev-prj2-koreacentral-002,back-lb-dev-prj2-koreacentral-002
+cnf-nic-dev-prj2-koreacentral-006,dev-prj2-koreacentral,nic-dev-prj2-koreacentral-007,lb-dev-prj2-koreacentral-002,back-lb-dev-prj2-koreacentral-002

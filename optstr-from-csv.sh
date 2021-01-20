@@ -35,17 +35,18 @@ do
         colValue=${colValue//[$'\r']}
         if [ $lineNo -eq 0 ]; then
             options[$coIndex]=${colValue}
-        elif [[ ! -z $colValue && -n $colValue && colIndex -gt 0 ]]; then
-            optStr="$optStr --${options[$colIndex]} $colValue"
-        elif [[ -n $colValue && $colIndex -eq 0 ]]; then
-            optStr="$optStr --name $colValue"
+        else
+           optStr="$optStr --${options[$colIndex]} '$colValue'"
         fi
+#        elif [[ ! -z $colValue && -n $colValue && colIndex -gt 0 ]]; then
+#           optStr="$optStr --${options[$colIndex]} '$colValue'"
+#        elif [[ -n $colValue && $colIndex -eq 0 ]]; then
+#            optStr="$optStr --name $colValue"
+#        fi
 
         ((colIndex++))
     done
-
-
-       
+    echo $optStr
     if [[ $colNo -eq $colIndex && -n $optStr ]]; then
         eval $CMD "$optStr"
         status=$(check_status)
@@ -56,10 +57,8 @@ do
             echo "-----------------------------------------------------"
             exit 1
         else
-            echo "-----------------------------------------------------"
-            echo "          Succeed to execute"
-            echo "  $CMD $optStr"
-            echo "-----------------------------------------------------"
+            echo "[[[[[[[[[[  Succeed to execute ]]]]]]]]]]" 
+            echo "[[[[[[[[[[    $CMD $optStr    ]]]]]]]]]]"
         fi
     fi
 

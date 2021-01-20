@@ -42,5 +42,8 @@ echo "----------------------- Start [Delete VNet] --------------------------"
 echo $($exec_shell "csvFiles/vnet.csv" "az network vnet delete" "name resource-group")
 echo "------------------------ End [Delete VNet] ---------------------------"
 
-#sh delete-unused-res.sh
+sh delete-unused-res.sh
 
+echo "----------------- Start [Delete Resource Group] ----------------------"
+echo $($exec_shell "csvFiles/rg.csv" "az group delete" "name")
+echo "----------------- End  [Delete Resource Group] -----------------------"

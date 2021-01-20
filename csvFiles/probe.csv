@@ -1,4 +1,3 @@
 name,resource-group,lb-name,protocol,port
-prb-dev-prj1-koreacentral-001,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-001,Tcp,443
-prb-dev-prj1-koreacentral-002,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-002,Tcp,443
-prb-dev-prj1-koreacentral-003,dev-prj1-koreacentral,lb-dev-prj1-koreacentral-003,Tcp,443
+prb-dev-prj2-koreacentral-001,dev-prj2-koreacentral,lb-dev-prj2-koreacentral-001,Tcp,80
+prb-dev-prj2-koreacentral-002,dev-prj2-koreacentral,lb-dev-prj2-koreacentral-002,Tcp,80

@@ -1,0 +1,2 @@
+resource-group,template-file,parameters
+logws-dev-prj2-eastus,deployworkspacetemplate.json,workspaceName=logws-dev-prj2-001

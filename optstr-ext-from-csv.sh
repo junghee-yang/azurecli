@@ -5,6 +5,8 @@
 #        if third parameter is passed, only matched field
 #        with those parameter is 
 #        execute command with parsed arguments from csv file
+#        this script are written to reusage of csv file used 
+#        to create resource for deleting resource.
 # ----------------------------------------------------------
 source check-status.sh
 
