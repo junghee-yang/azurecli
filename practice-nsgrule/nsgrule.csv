@@ -1,0 +1,6 @@
+nsg-name,resource-group,name,access,protocol,direction,priority,source-address-prefix,source-port-range,destination-address-prefix,destination-port-range
+MyNsg-FrontEnd,MyResourceGroup,Allow-HTTP-ALL,Allow,Tcp,Inbound,100,Internet,*,*,80
+MyNsg-FrontEnd,MyResourceGroup,Allow-SSH-ALL,Allow,Tcp,Inbound,300,Internet,*,*,22
+MyNsg-BackEnd,MyResourceGroup,Allow-MySql-FrontEnd,Allow,Tcp,Inbound,100,10.0.1.0/24,*,*,3306
+MyNsg-BackEnd,MyResourceGroup,Allow-SSH-ALL,Allow,Tcp,Inbound,200,Internet,*,*,22
+MyNsg-BackEnd,MyResourceGroup,Deny-Internet-All,Deny,Tcp,Outbound,300,*,*,*,*

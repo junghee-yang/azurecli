@@ -1,0 +1,3 @@
+name,resource-group,location
+MyNsg-FrontEnd,MyResourceGroup,koreacentral
+MyNsg-BackEnd,MyResourceGroup,koreacentral

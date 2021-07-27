@@ -1,0 +1,5 @@
+name,resource-group,address-prefix,vnet-name
+MySubnet-BackEnd,MyResourceGroup,10.0.2.0/24,MyVnet
+,,,
+,,,
+,,,

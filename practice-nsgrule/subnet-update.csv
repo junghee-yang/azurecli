@@ -1,0 +1,3 @@
+vnet-name,resource-group,name,networ-security-group
+MyVnet,MyResourceGroup,MySubnet-FrontEnd,MyNsg-FrontEnd
+MyVnet,MyResourceGroup,MySubnet-BackEnd,MyNsg-BackEnd

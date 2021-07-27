@@ -1,0 +1,3 @@
+resource-group,name,nics,image,admin-username
+MyResourceGroup,MyVm-Web,MyNic-Web,UbuntuLTS,azureadmin
+MyResourceGroup,MyVm-Sql,MyNic-Sql,UbuntuLTS,azureadmin
