@@ -117,7 +117,7 @@ for id in ${lbIds[@]}; do
       --window-size 5m --evaluation-frequency 1m \
       --description "degrade-lb-$idx" \
       --action $actionGrpId
-    az monitor metrics alert create -n disable-lb-$idx -g $RSGroup --scopes $id \
+    az monitor metrics alert create -n serious-degrade-lb-$idx -g $RSGroup --scopes $id \
       --condition "avg vipavailability < 25" \
       --window-size 5m --evaluation-frequency 1m \
       --description "disable-lb-$idx" \

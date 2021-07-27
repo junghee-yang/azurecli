@@ -11,6 +11,7 @@ source check-status.sh
 
 INPUT=$1
 CMD=$2
+COMPOSE_TYPE=$3
 
 OLDIFS=$IFS
 IFS=','
@@ -36,7 +37,11 @@ do
         if [ $lineNo -eq 0 ]; then
             options[$coIndex]=${colValue}
         else
-           optStr="$optStr --${options[$colIndex]} '$colValue'"
+           if [ $COMPOSE_TYPE == "template" ]; then
+              optStr="$optStr ${options[$colIndex]}='$colValue'"
+           else
+              optStr="$optStr --${options[$colIndex]} '$colValue'"
+           fi
         fi
 #        elif [[ ! -z $colValue && -n $colValue && colIndex -gt 0 ]]; then
 #           optStr="$optStr --${options[$colIndex]} '$colValue'"
