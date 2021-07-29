@@ -52,7 +52,7 @@ fi
 # read data from $INPUT file except the first line
 while IFS= read -ra line || [ -n "$line" ]; do
     # read data to an array with delimiter ",".
-    IFS=" " read -r -a columns <<< "$line"
+    IFS=", " read -r -a columns <<< "$line"
     export optStr=""
     colIdx=0
     # check value using refIdx found
@@ -64,7 +64,8 @@ while IFS= read -ra line || [ -n "$line" ]; do
         # in case of the last column of a row have cr
         
         value=$(echo ${colValue//[$'\r']} | xargs)
-        if [ ! -z $value ]; then
+	value=$colValue
+	if [ ! -z $value ]; then
             optStr="$optStr --${CHECKOPT[$colIdx]} $value"
             (( colIdx++ ))
         fi

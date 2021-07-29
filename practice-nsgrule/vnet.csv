@@ -1,5 +1,2 @@
-name,location
-MyResourceGroup,koreacentral
-,
-,
-,
+name,resource-group,location
+MyVnet,MyResourceGroup,koreacentral

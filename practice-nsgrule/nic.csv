@@ -1,3 +1,5 @@
 resource-group,name,vnet-name,subnet,network-security-group,public-ip-address
 MyResourceGroup,MyNic-Web,MyVnet,MySubnet-FrontEnd,MyNsg-FrontEnd,MyPublicIP-Web
 MyResourceGroup,MyNic-Sql,MyVnet,MySubnet-BackEnd,MyNsg-BackEnd,MyPublicIP-Sql
+MyResourceGroup,MyNic-Web1,MyVnet,MySubnet-Web,MyNsg-FrontEnd,
+MyResourceGroup,MyNic-Web2,MyVnet,MySubnet-Web,MyNsg-FrontEnd,

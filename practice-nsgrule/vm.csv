@@ -1,3 +1,5 @@
-resource-group,name,nics,image,admin-username
-MyResourceGroup,MyVm-Web,MyNic-Web,UbuntuLTS,azureadmin
-MyResourceGroup,MyVm-Sql,MyNic-Sql,UbuntuLTS,azureadmin
+resource-group,name,nics,image,admin-username,vnet-name,subnet
+MyResourceGroup,MyVm-Web,MyNic-Web,UbuntuLTS,azureadmin,MyVnet,MySubnet-FrontEnd
+MyResourceGroup,MyVm-Sql,MyNic-Sql,UbuntuLTS,azureadmin,MyVnet,MySubnet-BackEnd
+MyResourceGroup,MyVM-Web1,MyNic-Web1,UbuntuLTS,azureadmin,MyVnet,MySubnet-Web
+MyResourceGroup,MyVM-Web2,MyNic-Web2,UbuntuLTS,azureadmin,MyVnet,MySubnet-Web

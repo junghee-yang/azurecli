@@ -19,7 +19,8 @@ IFS=','
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 1; }
 
 lineNo=0
-options=()
+#options=()
+declare -a options
 
 while IFS= read -ra line || [ -n "$line" ]
 do

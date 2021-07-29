@@ -1,10 +1,10 @@
-# !/bin/bash
+#!/bin/bash
 # Purpose : create nsg
 # Author : Junghee Yang(junghee.yang@quest-global.com)
 # Date : 27-July-2021
 #-------------------------------------------------------------------------
 source check-status.sh
-exec_shell="sh optstr-from-csv.sh"
+exec_shell=". optstr-from-csv.sh" # "source optstr-from-csv.sh"
 
 #create resource group
 output=$($exec_shell "rg.csv" "az group create")

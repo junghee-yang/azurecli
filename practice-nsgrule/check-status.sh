@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Purpose: checking status of the command for common usage
 # Author : Junghee Yang(junghee.yang@quest-global.com)
 # Date : 24-Dec-2020
