@@ -19,9 +19,9 @@ echo $output
 
 
 #delete nsg
-#output=$($exec_shell "nsg.csv" "az network nsg delete" "name resource-group")
-#[[ $(check_status) == "fail" ]] && { echo "Fail to delete network security group"; exit 1; }
-#echo $output
+output=$($exec_shell "nsg.csv" "az network nsg delete" "name resource-group")
+[[ $(check_status) == "fail" ]] && { echo "Fail to delete network security group"; exit 1; }
+echo $output
 
 
 
